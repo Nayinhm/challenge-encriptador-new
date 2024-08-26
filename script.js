@@ -13,6 +13,7 @@ function botonEncriptar(){
     mensaje.value = textoEncriptado;
     textArea.value = "";
     mensaje.style.backgroundImage = "none";
+    ocultarRectangulo(); //oculta '.rectangulo__texto'
 }
 //Funcion de encriptación
 function encriptar(stringEncriptado) {
@@ -47,5 +48,13 @@ function desencriptar(stringDesencriptado) {
         }
     }
     return stringDesencriptado;
+}
+
+// Ocultar .rectangulo__texto al ejecutar funcion encriptar
+function ocultarRectangulo(){
+    const rectanguloTexto = document.querySelector(".rectangulo__texto");
+    if (rectanguloTexto){
+        rectanguloTexto.style.display = "none";
+    }
 }
 
