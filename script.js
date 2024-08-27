@@ -35,6 +35,8 @@ function botonDesencriptar(){
     const textoEncriptado = desencriptar(textArea.value);
     mensaje.value = textoEncriptado;
     textArea.value = "";
+    mensaje.style.backgroundImage = "none";
+    ocultarRectangulo(); //oculta '.rectangulo__texto'
 }
 //Funcion de desencriptación
 function desencriptar(stringDesencriptado) {
@@ -58,3 +60,4 @@ function ocultarRectangulo(){
     }
 }
 
+// Justificar el texto que arroja el '.mensaje' y se ajuste al rectangulo
