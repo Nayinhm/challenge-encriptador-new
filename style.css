@@ -182,3 +182,143 @@ main{
     line-height: 18px;
     margin: 0;
 }
+@media(max-width: 768px){
+    body{
+        width: 768px;
+        height: 1174px;
+    }
+    main{
+        display: block;
+        width: 768px;
+        height: 1174px;
+    }
+    .contenedor{
+        width: 768px;
+        height: 1174px;
+    }
+    .logo{
+        width: 31.09px;
+        height: 50.58px;
+        margin-top: 73.42px;
+        margin-left: 40px;
+        object-fit: cover;
+    }
+    .textarea{
+        margin-top: 104px;
+        margin-left: 40px;
+        width: 688px;
+        height: 48px;
+    }
+    .nota{
+        margin-top: 548px;
+        margin-left: 40px;
+    }
+    .botones{
+        width: 688px;
+        height: 67px;
+        margin-top: 16px;
+        margin-left: 40px;
+    }
+    .rectangulo{
+        width: 688px;
+        height: 133px;
+        margin-left: 40px;
+    }
+    .mensaje{
+        width: 688px;
+        height: 133px;
+        margin-left: 0;
+        margin-top: 64px;
+        position: relative;
+    }
+    .rectangulo__texto{
+        width: 624px;
+        height: 69px;
+        position: absolute;
+        top: 32px;
+        right: 32px;
+        bottom: 32px;
+        left: 32px;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .titulo{
+        width: 624px;
+        height: 29px;
+        margin: 0;
+    }
+    .texto{
+        width: 624px;
+        height: 24px;
+        margin: 0;
+    }
+}
+@media(max-width: 375px){
+    body{
+        width: 375px;
+        height: 933px;
+    }
+    main{
+        width: 375px;
+        height: 933px;
+        display: block;
+    }
+    .contenedor{
+        width: 375px;
+        height: 933px;
+    }
+    .logo{
+        width: 32px;
+        height: 48px;
+        margin-top: 24px;
+        margin-left: 16px;
+    }
+    .textarea{
+        width: 343px;
+        height: 48px;
+        margin-top: 56px;
+        margin-left: 16px;
+    }
+    .nota{
+        margin-top: 251px;
+        margin-left: 16px;
+    }
+    .botones{
+        width: 343px;
+        height: 158px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+    .boton-desencriptar{
+        margin: 0;
+    }
+    .rectangulo{
+        width: 327px;
+        height: 186px;
+        margin-left: 24px;
+    }
+    .mensaje{
+        width: 327px;
+        height: 186px;
+        margin-top: 64px;
+        position: relative;
+    }
+    .rectangulo__texto{
+        position: absolute;
+        width: 263px;
+        height: 122px;
+    }
+    .titulo{
+        width: 263px;
+        height: 58px;
+    }
+    .texto{
+        width: 263px;
+        height: 48px;
+    }
+}
